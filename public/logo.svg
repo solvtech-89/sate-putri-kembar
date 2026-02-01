@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff9a3c"/>
+      <stop offset="1" stop-color="#ff5a1f"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="24" fill="url(#g)" />
+  <g transform="translate(20,48)" fill="#fff" font-family="'Segoe UI', Roboto, Arial" >
+    <text x="0" y="0" font-size="22" font-weight="700">Sate</text>
+    <text x="0" y="30" font-size="20" font-weight="700">Putri</text>
+    <text x="0" y="58" font-size="18" font-weight="700">Kembar</text>
+  </g>
+  <g transform="translate(140,40)" stroke="#fff" stroke-width="4" stroke-linecap="round">
+    <path d="M0 0 L16 24" />
+    <path d="M8 0 L24 24" />
+  </g>
+</svg>
