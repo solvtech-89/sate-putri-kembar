@@ -76,7 +76,7 @@ export default function Home() {
           <div className="flex justify-center md:justify-end">
             <div className="w-full max-w-md rounded-3xl overflow-hidden shadow-xl transform hover:scale-102 transition-all duration-400">
               <Image
-                src="/tukang-sate.png"
+                src="/tukang-sate.jpeg"
                 alt="Paket Sate Putri Kembar"
                 width={800}
                 height={600}
@@ -118,22 +118,40 @@ export default function Home() {
         <section id="menu" className="mt-10">
           <h3 className="text-2xl font-bold">Menu Pilihan</h3>
           <div className="mt-4 grid gap-4 md:grid-cols-3">
-            <div className="card">
-              <div className="card-img" />
+            <div className="flex items-center card">
+              <Image
+                src="/sate-original.jpg"
+                alt="Paket Sate Putri Kembar"
+                width={300}
+                height={250}
+                className="object-cover"
+              />
               <h4 className="font-semibold">Sate Original</h4>
               <p className="text-sm text-gray-600">
                 10 tusuk — bumbu kacang klasik
               </p>
             </div>
-            <div className="card">
-              <div className="card-img" />
+            <div className="flex items-center card">
+              <Image
+                src="/sate-original.jpg"
+                alt="Paket Sate Putri Kembar"
+                width={300}
+                height={250}
+                className="object-cover"
+              />
               <h4 className="font-semibold">Sate Pedas</h4>
               <p className="text-sm text-gray-600">
                 Dengan sambal rumah yang menggigit
               </p>
             </div>
-            <div className="card">
-              <div className="card-img" />
+            <div className="flex items-center card">
+              <Image
+                src="/sate-original.jpg"
+                alt="Paket Sate Putri Kembar"
+                width={300}
+                height={250}
+                className="object-cover"
+              />
               <h4 className="font-semibold">Paket Hemat</h4>
               <p className="text-sm text-gray-600">Box keluarga lengkap</p>
             </div>
